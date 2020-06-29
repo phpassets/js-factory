@@ -1,0 +1,18 @@
+{
+	"name": "phpassets/js-factory",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Lennart Carstens-Behrens",
+			"email": "lennart.carbe@gmail.com"
+		}
+	],
+	"require": {
+		"phpassets/js": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"PhpAssets\\Js\\Factory\\": "src/"
+		}
+	}
+}
